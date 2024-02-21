@@ -3,8 +3,14 @@ btn.addEventListener("click", function () {
     let h3 = document.querySelector("h3");
     h3.innerText = `color: ${colorGen()}`;
     let colorBox = document.querySelector(".color-box");
+    if(matchMedia("(max-width: 768px)".matches)){
+        colorBox.style.height= "12.5rem";
+        colorBox.style.width= "22rem";
+    }
+    else{
     colorBox.style.height= "20.5rem";
     colorBox.style.width= "30rem";
+    }
     colorBox.style.border= "1px solid black";
     colorBox.style.borderRadius= "18px";
     colorBox.style.transition= "all 0.3s ease";
