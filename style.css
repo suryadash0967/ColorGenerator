@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-body{
+body {
     padding: 1.8rem 0;
     font-family: 'Poppins';
     gap: 1rem;
@@ -10,7 +10,8 @@ body{
     justify-content: center;
     align-items: center;
 }
-.box{
+
+.box {
     margin: 1.8rem 0;
     display: flex;
     gap: 1.5rem;
@@ -18,13 +19,19 @@ body{
     align-items: center;
 }
 
-.btn{
+.color-box {
+    height: 20.5rem;
+    width: 30rem;
+}
+
+.btn {
     color: black;
     font-size: 1.7rem;
     border: 1px solid black;
     width: 90%;
 }
-.rpb{
+
+.rpb {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,9 +39,15 @@ body{
     width: 25rem;
     gap: 0.8rem
 }
-@media (max-width:768px){
-    .box{
+
+@media (max-width:768px) {
+    .box {
         flex-direction: column;
     }
-    
+
+    .color-box {
+        height: 12.5rem;
+        width: 22rem;
+    }
+
 }
