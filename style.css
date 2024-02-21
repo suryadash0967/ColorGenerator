@@ -20,6 +20,8 @@ body {
 }
 
 .color-box {
+    border: 1px solid black;
+    border-radius: 18px;
     height: 20.5rem;
     width: 30rem;
 }
